@@ -1,0 +1,83 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	font-size: 11px; 
+	min-width: 100%;
+	align-items: center;
+	background: #E7E3E7;
+    padding-top: 50px;
+    margin-bottom: 82px;
+	font-style: normal;
+	line-height: 1.4;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+table{
+	border: 1px solid black;
+	vertical-align: bottom;
+	background-color: #fff;
+	width: 100%;
+}
+tr:nth-child(1) {
+	background-color: #007055;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+	
+}
+tr:nth-child(2n+1) {
+	background-color: #a0c1b9;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+	*/
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.listbox table {
+	background-color: #E7E3E7;
+	color: black;
+	text-align: right;
+	vertical-align: bottom;
+	
+}
+.listbox td {
+	background-color: #E7E3E7;
+	color: black;
+	text-align: right;
+	vertical-align: bottom;
+	font-size: 11px;
+	
+}
+.listbox label {
+	font-style: normal;
+	font-weight: normal;
+	color: black;
+	vertical-align: bottom;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+.listbox input {
+	padding-left: 3px;
+	vertical-align: bottom;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
